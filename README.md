@@ -16,8 +16,6 @@ This tool can be used to extract all the Endpoints from a site and convert those
 ```python3 end-extract.py -u siteurl-without-slash-at-the-end > file name.txt```
 
 
-##### Thanks renniepak
-
 ### This tool is for educational purpose only & use it in a ethical way
 
-
+## Thanks [renniepak](https://github.com/renniepak)
