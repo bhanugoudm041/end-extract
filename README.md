@@ -18,4 +18,6 @@ This tool can be used to extract all the Endpoints from a site and convert those
 
 ##### Thanks renniepak
 
+### This tool is for educational purpose only & use it in a ethical way
+
 
