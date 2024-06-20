@@ -12,7 +12,7 @@ This tool can be used to extract all the Endpoints from a site and convert those
 ```sudo apt install chromium-chromedriver```
 
 # Usage 
-```python3 end-extract.py -h``` ## for help menu
+```python3 end-extract.py -h``` ## for help menu<br/>
 ```python3 end-extract.py -u siteurl-without-slash-at-the-end > file name.txt```
 
 
