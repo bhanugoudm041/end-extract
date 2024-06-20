@@ -3,10 +3,14 @@ from selenium.webdriver.chrome.options import Options
 from optparse import OptionParser 
 import time
 import re
+import subprocess
+
+#change the path if requid or replace your path
+crm_path=str((subprocess.check_output(["which", "chromium"])).decode()) 
 
 #Chrome options
 chrome_options = Options()
-chrome_options.binary_location = '/usr/bin/chromium'
+chrome_options.binary_location = crm_path
 chrome_options.add_argument("--headless")
 
 #url options
