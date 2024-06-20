@@ -6,6 +6,7 @@ import re
 
 #Chrome options
 chrome_options = Options()
+#Update the binary location path as per your chrome configuration
 chrome_options.binary_location = "/usr/bin/chromium"
 chrome_options.add_argument("--headless")
 
